@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clinique de Néphrologie - Spécialistes des maladies rénales, dialyse, transplantation et soins préventifs.">
+    <title>Néphrologie | Dr. [Ton Nom] - Spécialiste des reins</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barre de navigation (inspirée de Thomas Robert) -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+                <i class="fas fa-kidneys"></i>
+                <span>Néphrologie</span>
+            </a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="active" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920.jpg')">Accueil</a></li>
+                <li><a href="maladies.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/molnarszabolcserdely-pine-forest-5572944_1920.jpg')">Maladies rénales</a></li>
+                <li><a href="traitements.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/kranich17-water-6901805_1920.jpg')">Traitements</a></li>
+                <li><a href="prevention.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/martinklass-waterfall-5312692_1920.jpg')">Prévention</a></li>
+                <li><a href="equipe.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920%20-%20Copie.jpg')">Équipe</a></li>
+                <li><a href="contact.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920.jpg')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section (comme sur les sites pros) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Spécialistes en Néphrologie</h1>
+            <p class="hero-subtitle">Prise en charge globale des maladies rénales : diagnostic, traitement et prévention.</p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn btn-primary">Prendre rendez-vous</a>
+                <a href="maladies.html" class="btn btn-outline">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services (inspirée des tops sites) -->
+    <section class="services-section">
+        <div class="container">
+            <h2 class="section-title">Nos Domaines d'Expertise</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Diagnostic précis</h3>
+                    <p>Analyses sanguines, échographies, biopsies rénales pour un diagnostic fiable.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Dialyse</h3>
+                    <p>Hémodialyse et dialyse péritonéale pour les insuffisances rénales chroniques.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Transplantation</h3>
+                    <p>Suivi pré et post-transplantation rénale en collaboration avec les centres spécialisés.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Prévention</h3>
+                    <p>Dépistage et conseils pour préserver la santé de vos reins.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos (pour rassurer les patients) -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Pourquoi choisir notre clinique ?</h2>
+                <p>Notre équipe de néphrologues expérimentés met à votre disposition des <strong>soins personnalisés</strong> basés sur les dernières avancées médicales. Nous collaborons avec les meilleurs centres hospitaliers pour vous offrir une prise en charge complète, de la prévention au traitement des maladies rénales les plus complexes.</p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Équipe diplômée et expérimentée</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Équipements de pointe</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Approche humaine et personnalisée</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://raw.githubusercontent.com/elsakhawikarim/photos/main/kranich17-water-6901805_1920.jpg" alt="Clinique de Néphrologie" class="rounded-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages (comme sur Thomas Robert) -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Témoignages de patients</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Grâce à l'équipe du Dr. [Ton Nom], j'ai pu mieux comprendre ma maladie et adapter mon traitement. Leur approche humaine fait toute la différence."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Marie D.</span>
+                        <span class="author-role">Patiente</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Un suivi rigoureux et des explications claires. Je me sens enfin en confiance pour gérer ma santé rénale."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Pierre L.</span>
+                        <span class="author-role">Patient en dialyse</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Blog/Actualités (pour le SEO) -->
+    <section class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Actualités et Conseils</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-date">
+                        <span>10</span>
+                        <span>Oct 2026</span>
+                    </div>
+                    <h3>Comprendre l'insuffisance rénale chronique</h3>
+                    <p>Découvrez les causes, symptômes et traitements de l'IRC dans notre nouvel article.</p>
+                    <a href="#" class="blog-read-more">Lire la suite →</a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-date">
+                        <span>5</span>
+                        <span>Oct 2026</span>
+                    </div>
+                    <h3>Alimentation et santé rénale</h3>
+                    <p>Quels aliments privilégier pour préserver vos reins ? Nos conseils.</p>
+                    <a href="#" class="blog-read-more">Lire la suite →</a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-date">
+                        <span>1</span>
+                        <span>Oct 2026</span>
+                    </div>
+                    <h3>Les avancées en transplantation rénale</h3>
+                    <p>Nouvelles techniques et résultats encourageants pour les patients.</p>
+                    <a href="#" class="blog-read-more">Lire la suite →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (comme sur les sites pros) -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <i class="fas fa-kidneys"></i>
+                    <h3>Néphrologie</h3>
+                </div>
+                <p>Clinique spécialisée dans les maladies rénales, la dialyse et la transplantation.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="maladies.html">Maladies rénales</a></li>
+                    <li><a href="traitements.html">Traitements</a></li>
+                    <li><a href="prevention.html">Prévention</a></li>
+                    <li><a href="equipe.html">Notre équipe</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Rue de la Santé, 75000 Paris</li>
+                    <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                    <li><i class="fas fa-envelope"></i> contact@nephrologie.fr</li>
+                    <li><i class="fas fa-clock"></i> Lundi - Vendredi : 8h-18h</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Clinique de Néphrologie. Tous droits réservés.</p>
+            <p><a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

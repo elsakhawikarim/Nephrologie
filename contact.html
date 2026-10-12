@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez notre clinique de néphrologie pour un rendez-vous ou des informations.">
+    <title>Contact | Clinique de Néphrologie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+                <i class="fas fa-kidneys"></i>
+                <span>Néphrologie</span>
+            </a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="index.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920.jpg')">Accueil</a></li>
+                <li><a href="maladies.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/molnarszabolcserdely-pine-forest-5572944_1920.jpg')">Maladies rénales</a></li>
+                <li><a href="traitements.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/kranich17-water-6901805_1920.jpg')">Traitements</a></li>
+                <li><a href="prevention.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/martinklass-waterfall-5312692_1920.jpg')">Prévention</a></li>
+                <li><a href="equipe.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920%20-%20Copie.jpg')">Équipe</a></li>
+                <li><a href="contact.html" class="active" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920.jpg')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes à votre écoute pour toute question ou demande de rendez-vous.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Nos Coordonnées</h2>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>Clinique de Néphrologie</p>
+                                <p>123 Rue de la Santé</p>
+                                <p>75000 Paris, France</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+33 1 23 45 67 89</p>
+                                <p><strong>Urgent :</strong> +33 1 23 45 67 90</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@nephrologie.fr</p>
+                                <p>secretariat@nephrologie.fr</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horaires</h4>
+                                <p><strong>Lundi - Vendredi :</strong> 8h - 18h</p>
+                                <p><strong>Samedi :</strong> 8h - 12h (sur rendez-vous)</p>
+                                <p><strong>Dimanche :</strong> Fermé</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h3>Suivez-nous</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Envoyez-nous un message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="form-col">
+                                    <label for="nom">Nom *</label>
+                                    <input type="text" id="nom" name="nom" required>
+                                </div>
+                                <div class="form-col">
+                                    <label for="prenom">Prénom *</label>
+                                    <input type="text" id="prenom" name="prenom" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-col">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-col">
+                                    <label for="telephone">Téléphone</label>
+                                    <input type="tel" id="telephone" name="telephone">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="sujet">Sujet *</label>
+                                <select id="sujet" name="sujet" required>
+                                    <option value="">-- Sélectionnez un sujet --</option>
+                                    <option value="rendez-vous">Prise de rendez-vous</option>
+                                    <option value="question-medicale">Question médicale</option>
+                                    <option value="information">Demande d'information</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <div class="form-group form-checkbox">
+                                <input type="checkbox" id="rgpd" name="rgpd" required>
+                                <label for="rgpd">J'accepte que mes données soient utilisées pour me recontacter. *</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="contact-map">
+                <h2>Où nous trouver</h2>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991625996996!2d2.292292615674254!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1635724267890!5m2!1sfr!2sfr"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <i class="fas fa-kidneys"></i>
+                    <h3>Néphrologie</h3>
+                </div>
+                <p>Clinique spécialisée dans les maladies rénales, la dialyse et la transplantation.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="maladies.html">Maladies rénales</a></li>
+                    <li><a href="traitements.html">Traitements</a></li>
+                    <li><a href="prevention.html">Prévention</a></li>
+                    <li><a href="equipe.html">Notre équipe</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Rue de la Santé, 75000 Paris</li>
+                    <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                    <li><i class="fas fa-envelope"></i> contact@nephrologie.fr</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Clinique de Néphrologie. Tous droits réservés.</p>
+            <p>
+                <a href="#">Mentions légales</a> |
+                <a href="#">Politique de confidentialité</a> |
+                <a href="#">Conditions générales</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informations sur les maladies rénales : insuffisance rénale, glomérulonéphrite, lithiase urinaire.">
+    <title>Maladies Rénales | Clinique de Néphrologie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+                <i class="fas fa-kidneys"></i>
+                <span>Néphrologie</span>
+            </a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="index.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920.jpg')">Accueil</a></li>
+                <li><a href="maladies.html" class="active" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/molnarszabolcserdely-pine-forest-5572944_1920.jpg')">Maladies rénales</a></li>
+                <li><a href="traitements.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/kranich17-water-6901805_1920.jpg')">Traitements</a></li>
+                <li><a href="prevention.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/martinklass-waterfall-5312692_1920.jpg')">Prévention</a></li>
+                <li><a href="equipe.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920%20-%20Copie.jpg')">Équipe</a></li>
+                <li><a href="contact.html" onclick="changeBG('https://raw.githubusercontent.com/elsakhawikarim/photos/main/jplenio-ocean-7461792_1920.jpg')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Maladies Rénales</h1>
+            <p>Comprendre les différentes pathologies touchant les reins.</p>
+        </div>
+    </section>
+
+    <section class="diseases-section">
+        <div class="container">
+            <div class="disease-card">
+                <div class="disease-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="disease-content">
+                    <h3>Insuffisance Rénale Chronique (IRC)</h3>
+                    <p>L'IRC est une perte progressive et irréversible de la fonction rénale. Elle évolue souvent sans symptômes pendant des années.</p>
+                    <div class="disease-details">
+                        <h4>Causes principales :</h4>
+                        <ul>
+                            <li>Diabète (cause n°1)</li>
+                            <li>Hypertension artérielle</li>
+                            <li>Glomérulonéphrites</li>
+                            <li>Maladies polykystiques des reins</li>
+                        </ul>
+                        <h4>Stades :</h4>
+                        <p>De stade 1 (légère) à stade 5 (insuffisance rénale terminale nécessitant une dialyse ou une transplantation).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disease-card">
+                <div class="disease-icon">
+                    <i class="fas fa-fire"></i>
+                </div>
+                <div class="disease-content">
+                    <h3>Glomérulonéphrite</h3>
+                    <p>Inflammation des glomérules (filtres du rein) qui peut entraîner une fuite de protéines ou de sang dans les urines.</p>
+                    <div class="disease-details">
+                        <h4>Types :</h4>
+                        <ul>
+                            <li>Glomérulonéphrite aiguë</li>
+                            <li>Glomérulonéphrite chronique</li>
+                            <li>Syndrome néphrotique</li>
+                        </ul>
+                        <h4>Traitement :</h4>
+                        <p>Corticoïdes, immunosuppresseurs, traitement de la cause sous-jacente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disease-card">
+                <div class="disease-icon">
+                    <i class="fas fa-gem"></i>
+                </div>
+                <div class="disease-content">
+                    <h3>Lithiase Urinaire (Calculs Rénaux)</h3>
+                    <p>Formation de pierres (calculs) dans les reins ou les voies urinaires, souvent très douloureuse (colique néphrétique).</p>
+                    <div class="disease-details">
+                        <h4>Facteurs de risque :</h4>
+                        <ul>
+                            <li>Déshydratation</li>
+                            <li>Régime riche en sel ou protéines</li>
+                            <li>Antécédents familiaux</li>
+                            <li>Certaines maladies métaboliques</li>
+                        </ul>
+                        <h4>Traitement :</h4>
+                        <p>Antalgiques, hydratation, parfois lithotritie (destruction des calculs par ultrasons) ou chirurgie.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disease-card">
+                <div class="disease-icon">
+                    <i class="fas fa-virus"></i>
+                </div>
+                <div class="disease-content">
+                    <h3>Infections Urinaires</h3>
+                    <p>Infections touchant les voies urinaires, qui peuvent atteindre les reins (pyélonéphrite) si non traitées.</p>
+                    <div class="disease-details">
+                        <h4>Symptômes :</h4>
+                        <ul>
+                            <li>Brûlures en urinant</li>
+                            <li>Envies fréquentes</li>
+                            <li>Douleurs lombaires (si atteinte rénale)</li>
+                            <li>Fièvre</li>
+                        </ul>
+                        <h4>Traitement :</h4>
+                        <p>Antibiotiques adaptés à l'agent pathogène.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Vous avez des symptômes ou des questions ?</h2>
+            <p>N'hésitez pas à nous contacter pour une consultation ou un avis médical.</p>
+            <a href="contact.html" class="btn btn-primary">Prendre rendez-vous</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <i class="fas fa-kidneys"></i>
+                    <h3>Néphrologie</h3>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="maladies.html">Maladies rénales</a></li>
+                    <li><a href="traitements.html">Traitements</a></li>
+                    <li><a href="prevention.html">Prévention</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                    <li><i class="fas fa-envelope"></i> contact@nephrologie.fr</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Clinique de Néphrologie.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
